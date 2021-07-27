@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58474AD926B07ECC00B1C0BF /* Clicker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 58474AD826B07ECC00B1C0BF /* Clicker WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		58474ADE26B07ED000B1C0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58474ADD26B07ED000B1C0BF /* Assets.xcassets */; };
+		58474AE526B07ED100B1C0BF /* Clicker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 58474AE426B07ED100B1C0BF /* Clicker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		58474AEA26B07ED100B1C0BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58474AE926B07ED100B1C0BF /* ContentView.swift */; };
+		58474AEC26B07ED100B1C0BF /* ClickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58474AEB26B07ED100B1C0BF /* ClickerApp.swift */; };
+		58474AEE26B07ED100B1C0BF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58474AED26B07ED100B1C0BF /* ComplicationController.swift */; };
+		58474AF026B07ED200B1C0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58474AEF26B07ED200B1C0BF /* Assets.xcassets */; };
+		58474AF326B07ED200B1C0BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58474AF226B07ED200B1C0BF /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58474ADA26B07ECC00B1C0BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58474ACE26B07ECB00B1C0BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58474AD726B07ECC00B1C0BF;
+			remoteInfo = "Clicker WatchKit App";
+		};
+		58474AE626B07ED100B1C0BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58474ACE26B07ECB00B1C0BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58474AE326B07ED100B1C0BF;
+			remoteInfo = "Clicker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58474AFA26B07ED200B1C0BF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				58474AE526B07ED100B1C0BF /* Clicker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58474AFE26B07ED200B1C0BF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				58474AD926B07ECC00B1C0BF /* Clicker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		58474AD426B07ECB00B1C0BF /* Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58474AD826B07ECC00B1C0BF /* Clicker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clicker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58474ADD26B07ED000B1C0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58474ADF26B07ED000B1C0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58474AE426B07ED100B1C0BF /* Clicker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Clicker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58474AE926B07ED100B1C0BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58474AEB26B07ED100B1C0BF /* ClickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerApp.swift; sourceTree = "<group>"; };
+		58474AED26B07ED100B1C0BF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		58474AEF26B07ED200B1C0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58474AF226B07ED200B1C0BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58474AF426B07ED200B1C0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58474AE126B07ED100B1C0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58474ACD26B07ECB00B1C0BF = {
+			isa = PBXGroup;
+			children = (
+				58474ADC26B07ECC00B1C0BF /* Clicker WatchKit App */,
+				58474AE826B07ED100B1C0BF /* Clicker WatchKit Extension */,
+				58474AD526B07ECB00B1C0BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58474AD526B07ECB00B1C0BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58474AD426B07ECB00B1C0BF /* Clicker.app */,
+				58474AD826B07ECC00B1C0BF /* Clicker WatchKit App.app */,
+				58474AE426B07ED100B1C0BF /* Clicker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58474ADC26B07ECC00B1C0BF /* Clicker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				58474ADD26B07ED000B1C0BF /* Assets.xcassets */,
+				58474ADF26B07ED000B1C0BF /* Info.plist */,
+			);
+			path = "Clicker WatchKit App";
+			sourceTree = "<group>";
+		};
+		58474AE826B07ED100B1C0BF /* Clicker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				58474AE926B07ED100B1C0BF /* ContentView.swift */,
+				58474AEB26B07ED100B1C0BF /* ClickerApp.swift */,
+				58474AED26B07ED100B1C0BF /* ComplicationController.swift */,
+				58474AEF26B07ED200B1C0BF /* Assets.xcassets */,
+				58474AF426B07ED200B1C0BF /* Info.plist */,
+				58474AF126B07ED200B1C0BF /* Preview Content */,
+			);
+			path = "Clicker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		58474AF126B07ED200B1C0BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58474AF226B07ED200B1C0BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58474AD326B07ECB00B1C0BF /* Clicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58474AFF26B07ED200B1C0BF /* Build configuration list for PBXNativeTarget "Clicker" */;
+			buildPhases = (
+				58474AD226B07ECB00B1C0BF /* Resources */,
+				58474AFE26B07ED200B1C0BF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58474ADB26B07ECC00B1C0BF /* PBXTargetDependency */,
+			);
+			name = Clicker;
+			productName = Clicker;
+			productReference = 58474AD426B07ECB00B1C0BF /* Clicker.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		58474AD726B07ECC00B1C0BF /* Clicker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58474AFB26B07ED200B1C0BF /* Build configuration list for PBXNativeTarget "Clicker WatchKit App" */;
+			buildPhases = (
+				58474AD626B07ECC00B1C0BF /* Resources */,
+				58474AFA26B07ED200B1C0BF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58474AE726B07ED100B1C0BF /* PBXTargetDependency */,
+			);
+			name = "Clicker WatchKit App";
+			productName = "Clicker WatchKit App";
+			productReference = 58474AD826B07ECC00B1C0BF /* Clicker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		58474AE326B07ED100B1C0BF /* Clicker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58474AF726B07ED200B1C0BF /* Build configuration list for PBXNativeTarget "Clicker WatchKit Extension" */;
+			buildPhases = (
+				58474AE026B07ED100B1C0BF /* Sources */,
+				58474AE126B07ED100B1C0BF /* Frameworks */,
+				58474AE226B07ED100B1C0BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clicker WatchKit Extension";
+			productName = "Clicker WatchKit Extension";
+			productReference = 58474AE426B07ED100B1C0BF /* Clicker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58474ACE26B07ECB00B1C0BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					58474AD326B07ECB00B1C0BF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					58474AD726B07ECC00B1C0BF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					58474AE326B07ED100B1C0BF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 58474AD126B07ECB00B1C0BF /* Build configuration list for PBXProject "Clicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58474ACD26B07ECB00B1C0BF;
+			productRefGroup = 58474AD526B07ECB00B1C0BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58474AD326B07ECB00B1C0BF /* Clicker */,
+				58474AD726B07ECC00B1C0BF /* Clicker WatchKit App */,
+				58474AE326B07ED100B1C0BF /* Clicker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58474AD226B07ECB00B1C0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58474AD626B07ECC00B1C0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58474ADE26B07ED000B1C0BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58474AE226B07ED100B1C0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58474AF326B07ED200B1C0BF /* Preview Assets.xcassets in Resources */,
+				58474AF026B07ED200B1C0BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58474AE026B07ED100B1C0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58474AEA26B07ED100B1C0BF /* ContentView.swift in Sources */,
+				58474AEC26B07ED100B1C0BF /* ClickerApp.swift in Sources */,
+				58474AEE26B07ED100B1C0BF /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58474ADB26B07ECC00B1C0BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58474AD726B07ECC00B1C0BF /* Clicker WatchKit App */;
+			targetProxy = 58474ADA26B07ECC00B1C0BF /* PBXContainerItemProxy */;
+		};
+		58474AE726B07ED100B1C0BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58474AE326B07ED100B1C0BF /* Clicker WatchKit Extension */;
+			targetProxy = 58474AE626B07ED100B1C0BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58474AF526B07ED200B1C0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58474AF626B07ED200B1C0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58474AF826B07ED200B1C0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Clicker WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SVL2L4EZ6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Clicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michdavidadams.Clicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		58474AF926B07ED200B1C0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Clicker WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SVL2L4EZ6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Clicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michdavidadams.Clicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		58474AFC26B07ED200B1C0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SVL2L4EZ6;
+				IBSC_MODULE = Clicker_WatchKit_Extension;
+				INFOPLIST_FILE = "Clicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michdavidadams.Clicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		58474AFD26B07ED200B1C0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SVL2L4EZ6;
+				IBSC_MODULE = Clicker_WatchKit_Extension;
+				INFOPLIST_FILE = "Clicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michdavidadams.Clicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		58474B0026B07ED200B1C0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SVL2L4EZ6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michdavidadams.Clicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		58474B0126B07ED200B1C0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SVL2L4EZ6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michdavidadams.Clicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58474AD126B07ECB00B1C0BF /* Build configuration list for PBXProject "Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58474AF526B07ED200B1C0BF /* Debug */,
+				58474AF626B07ED200B1C0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58474AF726B07ED200B1C0BF /* Build configuration list for PBXNativeTarget "Clicker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58474AF826B07ED200B1C0BF /* Debug */,
+				58474AF926B07ED200B1C0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58474AFB26B07ED200B1C0BF /* Build configuration list for PBXNativeTarget "Clicker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58474AFC26B07ED200B1C0BF /* Debug */,
+				58474AFD26B07ED200B1C0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58474AFF26B07ED200B1C0BF /* Build configuration list for PBXNativeTarget "Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58474B0026B07ED200B1C0BF /* Debug */,
+				58474B0126B07ED200B1C0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58474ACE26B07ECB00B1C0BF /* Project object */;
+}
