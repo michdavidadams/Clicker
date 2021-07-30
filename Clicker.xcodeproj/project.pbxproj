@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		58474AD926B07ECC00B1C0BF /* Clicker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 58474AD826B07ECC00B1C0BF /* Clicker WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		58474ADE26B07ED000B1C0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58474ADD26B07ED000B1C0BF /* Assets.xcassets */; };
 		58474AE526B07ED100B1C0BF /* Clicker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 58474AE426B07ED100B1C0BF /* Clicker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		58474AEA26B07ED100B1C0BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58474AE926B07ED100B1C0BF /* ContentView.swift */; };
 		58474AEC26B07ED100B1C0BF /* ClickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58474AEB26B07ED100B1C0BF /* ClickerApp.swift */; };
 		58474AEE26B07ED100B1C0BF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58474AED26B07ED100B1C0BF /* ComplicationController.swift */; };
 		58474AF026B07ED200B1C0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58474AEF26B07ED200B1C0BF /* Assets.xcassets */; };
 		58474AF326B07ED200B1C0BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58474AF226B07ED200B1C0BF /* Preview Assets.xcassets */; };
+		58474B0B26B0817000B1C0BF /* ClickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58474B0A26B0817000B1C0BF /* ClickerButton.swift */; };
+		58474B0D26B08C4600B1C0BF /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58474B0C26B08C4600B1C0BF /* Sound.swift */; };
+		58474B1426B094AC00B1C0BF /* soundEffect.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 58474B1326B094AC00B1C0BF /* soundEffect.m4a */; };
+		58474B1526B094AC00B1C0BF /* soundEffect.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 58474B1326B094AC00B1C0BF /* soundEffect.m4a */; };
+		58474B1626B094AC00B1C0BF /* soundEffect.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 58474B1326B094AC00B1C0BF /* soundEffect.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,9 @@
 		58474AEF26B07ED200B1C0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58474AF226B07ED200B1C0BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		58474AF426B07ED200B1C0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58474B0A26B0817000B1C0BF /* ClickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerButton.swift; sourceTree = "<group>"; };
+		58474B0C26B08C4600B1C0BF /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		58474B1326B094AC00B1C0BF /* soundEffect.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = soundEffect.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +122,10 @@
 		58474AE826B07ED100B1C0BF /* Clicker WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				58474B1226B0947400B1C0BF /* sounds */,
 				58474AE926B07ED100B1C0BF /* ContentView.swift */,
+				58474B0A26B0817000B1C0BF /* ClickerButton.swift */,
+				58474B0C26B08C4600B1C0BF /* Sound.swift */,
 				58474AEB26B07ED100B1C0BF /* ClickerApp.swift */,
 				58474AED26B07ED100B1C0BF /* ComplicationController.swift */,
 				58474AEF26B07ED200B1C0BF /* Assets.xcassets */,
@@ -131,6 +141,14 @@
 				58474AF226B07ED200B1C0BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58474B1226B0947400B1C0BF /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				58474B1326B094AC00B1C0BF /* soundEffect.m4a */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58474B1426B094AC00B1C0BF /* soundEffect.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58474ADE26B07ED000B1C0BF /* Assets.xcassets in Resources */,
+				58474B1526B094AC00B1C0BF /* soundEffect.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58474AF326B07ED200B1C0BF /* Preview Assets.xcassets in Resources */,
+				58474B1626B094AC00B1C0BF /* soundEffect.m4a in Resources */,
 				58474AF026B07ED200B1C0BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58474B0D26B08C4600B1C0BF /* Sound.swift in Sources */,
 				58474AEA26B07ED100B1C0BF /* ContentView.swift in Sources */,
 				58474AEC26B07ED100B1C0BF /* ClickerApp.swift in Sources */,
 				58474AEE26B07ED100B1C0BF /* ComplicationController.swift in Sources */,
+				58474B0B26B0817000B1C0BF /* ClickerButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
